@@ -1,4 +1,5 @@
-### This file was modified
+### The main path shuold be the e-shape to share Google Drive.
+### For this download Data from Google File Stream
 """
 This scrips contains functions needed in the e-shape pilot monitoring fishing activities.
 To use those functions: from e_shape_functions import *

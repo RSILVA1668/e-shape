@@ -35,7 +35,7 @@ main_path = r'G:\Mon Drive\E-SHAPE_to_share\0_Data'
 df_allmmsi = pd.read_csv ( main_path + r'\11_vessel_data_match\all_mmsi_and_parameters_0-2684_gear_ALL_EU.csv' )
 vessel_database_path = main_path + r'\11_vessel_data_match\combineOnlyPortugal_all_mmsi_and_parameters_DGRM_vesselCode.csv'
 vessel_database = pd.read_csv ( vessel_database_path , sep = ';' )
-eez_shp_path = r'C:\Users\macl\Documents\E-shape\1_EEZ_PT_all\eez.shp'
+eez_shp_path = main_path +  r'\1_EEZ_PT_all\eez.shp'
 eez_shp = gpd.read_file ( eez_shp_path )
 
 ### 3 first digits of MMSI Id number correspond to a country

@@ -5,6 +5,7 @@ This scrips contains functions needed in the e-shape pilot monitoring fishing ac
 To use those functions: from e_shape_functions import *
 This will import functions and databases as variables
 """
+
 ######### Import libraries needed
 import os , gdal , osr , datetime
 os.environ ['PROJ_LIB' ] = r'C:\Users\macl\AppData\Local\Continuum\anaconda3\pkgs\proj4-5.2.0-h6538335_1006\Library\share'
@@ -27,6 +28,7 @@ from matplotlib.widgets import RectangleSelector
 from pandas.plotting import register_matplotlib_converters
 from pandas.core.common import SettingWithCopyWarning
 warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
+
 
 
 
